@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0090EB80-2B6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIdentity.Api", "src\LearnIdentity.Api\LearnIdentity.Api.csproj", "{869510A3-F492-4A0A-A19F-F15F5533194E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIdentity.Service", "src\LearnIdentity.Service\LearnIdentity.Service.csproj", "{0F9CD003-18D5-44DB-86BE-B5D7DC257322}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +19,19 @@ Global
 		{869510A3-F492-4A0A-A19F-F15F5533194E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{869510A3-F492-4A0A-A19F-F15F5533194E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{869510A3-F492-4A0A-A19F-F15F5533194E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9CD003-18D5-44DB-86BE-B5D7DC257322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9CD003-18D5-44DB-86BE-B5D7DC257322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9CD003-18D5-44DB-86BE-B5D7DC257322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9CD003-18D5-44DB-86BE-B5D7DC257322}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{869510A3-F492-4A0A-A19F-F15F5533194E} = {0090EB80-2B61-4167-B7F0-577740862D42}
+		{0F9CD003-18D5-44DB-86BE-B5D7DC257322} = {0090EB80-2B61-4167-B7F0-577740862D42}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F1C87ED-8BB7-44E0-A6B8-8B05C6A7C505}
 	EndGlobalSection
 EndGlobal
